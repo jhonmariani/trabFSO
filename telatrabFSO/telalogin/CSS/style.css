@@ -1,0 +1,57 @@
+body {
+    background-color: #444a5b;
+}
+
+.container {
+    display: flex;  
+    height: 95vh;
+    margin-top: 2vh;
+}
+
+.esquerda {
+    background-image: url(../Imgs/style2.png);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    width:60vw;
+    border-radius: 10px 0 0 10px;
+        
+}
+
+.direita {
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    width: 40vw;
+    justify-content: center;
+}
+.login{
+    font-family: poppins;
+    font-size: 17px;
+    font-stretch: extra-condensed;
+    color: #000000;
+}
+.login input{
+    border-radius: 10px;
+    border: 2px solid #000000;
+    margin: 0px;
+    outline: none;
+    width: 20vw;
+    height: 3vh;
+    padding: 1vh;
+}
+.logar{
+    margin-top: 15px;
+}
+.logar button{
+    border-radius: 15px;
+    border: none;
+    background-color: #030303;
+    width: 70px;
+    height: 40px;
+    color: white;
+    
+}
+.logar button:hover{
+    background-color: #000000;
+}
